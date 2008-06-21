@@ -1,0 +1,54 @@
+# Pirate cards
+
+1:
+  name: Sword swing
+  range: 
+    - [1, 0]
+    - [0, 1]
+  damage: 15
+  spends: 15
+  range_repr: [10, 14]
+
+2:
+  name: Sabre slash
+  range:
+    - [1, -1]
+    - [1, 0]
+    - [0, 1]
+  damage: 20
+  spends: 30
+  range_repr: [5, 10, 14]
+
+3:
+  name: Parrot attack
+  range:
+    - [0, 0]
+    - [0, -1]
+    - [-1, -1]
+  damage: 40
+  spends: 25
+  range_repr: [4, 5, 9]
+
+4:
+  name: Drunk dance
+  range:
+    - [0, -1]
+    - [1, -1]
+    - [-1, 0]
+    - [0, 0]
+    - [1, 0]
+    - [-1, 1]
+    - [0, 1]
+  damage: 10
+  spends: 35
+  range_repr: [4, 5, 8, 9, 10, 13, 14]
+
+5:
+  name: Cannonball
+  range:
+    - [1, 0]
+    - [2, 0]
+  damage: 40
+  spends: 50
+  affects: everybody
+  range_repr: [10, 11]
