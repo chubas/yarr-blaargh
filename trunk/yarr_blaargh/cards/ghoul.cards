@@ -1,0 +1,28 @@
+# Ghouls cards
+
+1:
+  name: Brain Surgery
+  range:
+    - [0, -1]
+    - [1, -1]
+    - [-1, 0]
+    - [0, 0]
+    - [1, 0]
+    - [-1, 1]
+    - [0, 1]
+  damage: 20
+  spends: 35
+  range_repr: [4, 5, 8, 9, 10, 13, 14]
+
+2:
+  name: Fury of the living dead
+  range:
+    - [1, -2]
+    - [1, -1]
+    - [0, 0]
+    - [1, 0]
+    - [1, 1]
+    - [1, 2]
+  damage: 50
+  spends: 100
+  range_repr: [2, 5, 9, 10, 14, 18]
